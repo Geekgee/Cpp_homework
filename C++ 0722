@@ -1,4 +1,4 @@
-//这是姚瀚晨的作业本
+//这是Geekgee的作业本
 //学习视频：《【c++】 c++ primer 教程 猎豹网校》：https://www.bilibili.com/video/av16625546?from=search&seid=15382813425029884539
 //参考书本：《C++ Primer》 王刚 杨巨峰译
 
@@ -141,27 +141,3 @@ int main()
 	return 0;
 }*/
 
-
-
-//2018/7/23
-//Class2
-
-//Demo10
-#include<iostream>
-#include"Dog.h"
-void doA(void)//void函数没有返回值
-{
-}
-
-int doB(int a）//int函数必须有返回值
-{
-	return 0;
-}
-
-int main()
-{
-	int a;
-	Dog b;
-	std::cout<<"测试一下\n"<<std::endl;
-	return 0;
-}
