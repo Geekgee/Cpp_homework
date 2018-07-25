@@ -21,6 +21,25 @@ int main()
 {
 	short a;
 	unsigned short b;
+
+	char c1;
+	unsigned char c2;
+	signed char c3;
+
+	unsigned short s1;
+	signed short s2;
+	short s3;
+
+	int i1;
+	signed int i2;
+	unsigned int i3;
+
+	long long lng1;
+	unsigned long long lng2;
+	signed long long lng3;
+	
+	
+	
 	std::cout<<"short的类型是："<<sizeof(a) * 8<<"位"<<std::endl;//short类型是16位
 	a = 32767;
 	std::cout<<"short的最大数是："<<a<<std::endl;
