@@ -15,17 +15,26 @@
 ///*Unsigned short类型是无符号的，16位二进制，最大数是2^16-1=65535
 ///*Short类型是有符号的，16位二进制，有符号的数复杂，最小数-2^15，最大数2^15-1
 //
+
 #include<iostream>
 int main()
 {
 	short a;
 	unsigned short b;
 	std::cout<<"short的类型是："<<sizeof(a) * 8<<"位"<<std::endl;//short类型是16位
+	a = 32767;
+	std::cout<<"short的最大数是："<<a<<std::endl;
+	a++;
+	std::cout<<a<<std::endl;//-32768
 
 	std::cout<<"unsigned short的类型是："<<sizeof(b) * 8<<"位"<<std::endl;
 	b = 65535;
 	std::cout<<"unsigned short的最大数是："<<b<<std::endl;
 	b++;
 	std::cout<<"unsigned short的最大数+1是："<<b<<std::endl;//溢出
+
+	std::cout<<"给unsigned short赋值100000"<<std::endl;
+	b = 100000;
+	std::cout<<"结果应该是34464:"<<b<<std::endl;
     return 0;
 }
