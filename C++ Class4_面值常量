@@ -81,6 +81,24 @@ int main()
 	std::cout<<"Hello\n"<<std::endl;//换行
 	std::cout<<"Hello\r\n"<<std::endl;//回车
 	std::cout<<"M\123"<<std::endl;
-	
+
+	std::cout<<"2\nM"<<std::endl;//二进制转义2换行M
+	std::cout<<"\062\012\115"<<std::endl;//八进制转义2换行M
+	std::cout<<"\x032\x00A\x04d"<<std::endl;//十六进制转义2换行M
+
+	std::cout<<'2';
+	std::cout<<'\n';
+	std::cout<<'M';
+	std::cout<<std::endl;
+
+	std::cout<<'\062';
+	std::cout<<'\012';
+	std::cout<<'\115';
+	std::cout<<std::endl;
+
+	std::cout<<'\x032';
+	std::cout<<'\x00A';
+	std::cout<<'\x04d';
+	std::cout<<std::endl;
 	return 0;
 }
