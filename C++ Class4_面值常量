@@ -36,7 +36,7 @@ int main()
 	std::cout<< 3.14159 <<std::endl;
 	std::cout<< 3.14159f <<std::endl;
 	std::cout<< 3.14159L <<std::endl;
-	//科学计数法0.001=1e-3
+	//科学计数法0.001=1e-3=1E-3
 	std::cout<< 3.14159e-3 <<std::endl;
 	std::cout<< 3.14159e3f<<std::endl;
 	return 0;
