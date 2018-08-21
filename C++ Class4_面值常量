@@ -102,3 +102,26 @@ int main()
 	std::cout<<std::endl;
 	return 0;
 }
+
+//2018/8/21
+//*Demo19 字符串
+#include<iostream>
+#include<locale.h>
+int main()
+{ 
+	std::cout << 'A' << std::endl;//字符，1个字节
+	std::cout << "A" << std::endl;//字符串，"A"='A','\0'
+
+	std::cout << "这是普通字符串." << std::endl;//普通字符串
+	//std::cout << L"这是宽字符串." << std::endl;//宽字符串
+	setlocale(LC_ALL, "chs");
+	wprintf(L"%ls\n",L"这是宽字符串");
+
+	std::cout << "a multi-line string " 
+		"literal using concatentation" << std::endl;//分开段落要加双引号
+
+	std::cout << "a multi-line string \
+literal using \
+concatentation" << std::endl;//续行符
+	return 0;
+}
