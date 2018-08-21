@@ -1,0 +1,15 @@
+//Demo20 2的20次方计算
+#include<iostream>
+int main()
+{
+	int a = 2;
+	int b = 20;
+	int result = 1;
+
+	for(int i = 0; i!=b; i++)
+		result = result * a;
+	std::cout << "2的20次方："<<std::endl;
+	std::cout << result <<std::endl;
+	
+return 0;
+}
