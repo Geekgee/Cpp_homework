@@ -3,7 +3,7 @@ As a freshman, here is my homework. Welcome to check:)
 欢迎大家给我点星哦，我的邮箱：hanchen_yao@126.com
 
 # Demo目录
-Demo1 HELLO WORLD！---------------Class1
+Demo1 HELLO WORLD！---------------Class1/n
 Demo2 两变量算加法-----------------Class1
 Demo3 引入头文件-------------------Class1
 Demo4 两本书判断同源相加，不同报错---Class1
