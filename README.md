@@ -2,7 +2,7 @@
 As a freshman, here is my homework. Welcome to check:)<p>
 欢迎大家给我点星哦，我的邮箱：hanchen_yao@126.com
 
-# Demo目录
+# Demo Contents
 Demo1 HELLO WORLD！-Class1<p>
 Demo2 两变量算加法-Class1<p>
 Demo3 引入头文件-Class1<p>
