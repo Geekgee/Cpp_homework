@@ -67,3 +67,39 @@ int main()
 	return 0;
 }
 */
+
+//Demo35 习题3.5
+/*从标准输入每次读一行，每次读一个单词
+#include<iostream>
+#include<string>
+using namespace std;
+
+int main()
+{
+	string line;
+	while(getline(cin,line))
+		//while(cin>>word)，每次读一个单词
+		cout << line << endl;
+	return 0;
+}
+*/
+
+//Demo35 习题3.6
+//解释string类型cin和getline如何处理空白字符
+#include<iostream>
+#include<string>
+using namespace std;
+
+int main()
+{
+	string name;
+
+	cout << "使用cin，请输入你的姓名：" << endl;
+	cin >> name;
+	cout << name <<endl<<endl;
+	cout << "*************" <<endl;
+
+	cout << "使用getline，请输入你的姓名：" << endl;
+	getline(cin,name);
+	cout << name <<endl<<endl;
+}
