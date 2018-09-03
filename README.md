@@ -16,7 +16,7 @@ Demo8 WHILE语句做循环，输多少加多少<p>
 Demo9 输入书号求和，WHILE和IF嵌套<p>
 Demo10 检测函数类型字节计算<p>
 Demo11 整形布尔型示例<p>
-Demo12 <p>
+Demo12 字符溢出<p>
 Demo13 习题解答2-3<p>
 Demo14 整型字面值规则<p>
 Demo15 浮点字面值规则<p>
