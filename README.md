@@ -1,8 +1,6 @@
 # Homework
 As a freshman, here is my homework. Welcome to check:)<p>
 欢迎大家给我点星哦，我的邮箱：hanchen_yao@126.com
-  
-# Class Contents
 
 # Demo Contents
 Demo1 HELLO WORLD！-Class1<p>
@@ -52,3 +50,7 @@ Demo44 习题3.8<p>
 Demo45 从string对象获得字符<p>
 Demo46 标点符号计数<p>
 Demo47 习题3.10<p>
+Demo48 vector库保存提取数据<p>
+Demo49 vector库保存提取数据(2)<p>
+Demo50 vector库输入输出数据<p>
+Demo51 习题3.13<p>
