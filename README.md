@@ -54,3 +54,7 @@ Demo48 vector库保存提取数据<p>
 Demo49 vector库保存提取数据(2)<p>
 Demo50 vector库输入输出数据<p>
 Demo51 习题3.13<p>
+Demo52 习题3.13（2）头尾相加<p>
+Demo53 习题3.14<p>
+Demo54 迭代器begin和end操作<p>
+Demo55 二进制和十六进制转化<p>
