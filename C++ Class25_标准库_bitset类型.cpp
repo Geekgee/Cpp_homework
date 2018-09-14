@@ -14,5 +14,14 @@ int main()
 
 	bitset<16>b(0xffff);
 	cout << b << endl;
+
+	bitset<32>c(0xffff);
+	cout << c << endl;
+
+	bitset<128>d(0xffff);
+	cout << d << endl;
+
+	bitset<32>e(156);
+	cout << e << endl;
 	return 0;
 }
