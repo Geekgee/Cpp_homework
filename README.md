@@ -58,3 +58,10 @@ Demo52 习题3.13（2）头尾相加<p>
 Demo53 习题3.14<p>
 Demo54 迭代器begin和end操作<p>
 Demo55 二进制和十六进制转化<p>
+Demo56 bitset标准库初始化<p>
+Demo57 bitset标准库a有几个1<p>
+Demo58 用下标对每一位操作<p>
+Demo59 bitset库几进制<p>
+Demo60 通过cin输入<p>
+  
+  
