@@ -62,6 +62,6 @@ Demo56 bitset标准库初始化<p>
 Demo57 bitset标准库a有几个1<p>
 Demo58 用下标对每一位操作<p>
 Demo59 bitset库几进制<p>
-Demo60 通过cin输入<p>
+Demo60 bitset库通过cin输入<p>
   
   
