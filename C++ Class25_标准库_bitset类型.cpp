@@ -127,7 +127,7 @@ int main()
 }
 */
 
-//Demo60 通过cin输入
+//Demo60 位与或亦或操作
 #include<iostream>
 #include<bitset>
 
@@ -142,5 +142,30 @@ int main()
 	cout << eightBits << endl;
 
 	cout << "有" << eightBits.count() << "个1！！！"<< endl;
+	cout << "有" << eightBits.size() - eightBits.count() << "个0！！！"<< endl;
+
+	bitset<8>flipInput(eightBits);
+	flipInput.flip();//翻转
+	cout << flipInput << endl;
+
+	bitset<8>eightMoreBits;
+	cout << "Enter another 8 - bit sequence" << endl;
+	cin >> eightMoreBits;
+	cout << endl;
+
+	cout << eightBits << endl;
+	cout << eightMoreBits << endl;
+	cout << (eightBits & eightMoreBits) << endl;//位与运算
+	cout << endl;
+
+	cout << eightBits << endl;
+	cout << eightMoreBits << endl;
+	cout << (eightBits | eightMoreBits) << endl;//位或运算
+	cout << endl;
+
+	cout << eightBits << endl;
+	cout << eightMoreBits << endl;
+	cout << (eightBits ^ eightMoreBits) << endl;//位异或运算
+	cout << endl;
 	return 0;
 }
