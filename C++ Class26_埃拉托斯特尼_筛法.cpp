@@ -2,13 +2,14 @@
 //Class26_埃拉托斯特尼_筛法
 //Demo61 筛法改进
 #include<iostream>
+#include<cmath>
 #include<bitset>
 
 using namespace std;
 int main()
 {
 	int const max_number(100);
-	int const max_test((int)sqrt((double)max_number));//max_number-double, sqrt-int
+	int const max_test((int)sqrt((double)max_number));//max_number-double, max_test-int，两次转型
 	//所有小于n的质数至少有个小于根号n的因数
 
 	bitset<max_number + 1>numbers;//101个0！
