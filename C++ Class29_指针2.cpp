@@ -1,6 +1,6 @@
 //20180924
-//Class29_指针
-//Demo63 指针循环输出
+//Class29_指针2
+//Demo64 指针循环输出
 #include<iostream>
 #include<string>
 #include<vector>
