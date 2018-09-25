@@ -1,5 +1,5 @@
 //20180923
-//Class28_数组
+//Class27_数组
 /*Demo62 数组的初始化
 #include<iostream>
 #include<string>
