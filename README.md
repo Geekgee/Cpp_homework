@@ -63,5 +63,11 @@ Demo57 bitset标准库a有几个1<p>
 Demo58 用下标对每一位操作<p>
 Demo59 bitset库几进制<p>
 Demo60 bitset库通过cin输入<p>
-  
+Demo61 筛法改进<p>
+Demo62 数组的初始化<p>
+Demo63 数组的拷贝<p>
+Demo64 指针初始化<p>
+Demo65 指针的引用<p>
+Demo66 指针循环输出<p>
+Demo67 const指针<p>
   
